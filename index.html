@@ -16,11 +16,15 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h1>Things to do</h1>
-        <p>Go to gym</p>
-        <p>Do some shopping</p>
-        <p>Clean the flat</p>
-        <p>Walk the dog</p>
-        <p>Make food</p>
+        <input id="search-text" type="text" placeholder="Filter todos">
+        <label>
+            <input id="hide-completed" type="checkbox"> Hide Comppleted
+        </label>
+        <div id="todos"></div>
+        <form id="new-todo">
+            <input type="text" placeholder="Something To Do" name="text"> 
+            <button>Add Todo</button>
+        </form>
         <script src="todo-app.js" async defer></script>
     </body>
 </html>
