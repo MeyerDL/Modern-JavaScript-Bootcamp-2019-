@@ -1,30 +1,20 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
+
+<html>
+    <head></head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <h1>Things to do</h1>
+        <h1>Todos</h1>
         <input id="search-text" type="text" placeholder="Filter todos">
         <label>
-            <input id="hide-completed" type="checkbox"> Hide Comppleted
+            <input type="checkbox" id="hide-completed"> Hide completed
         </label>
         <div id="todos"></div>
         <form id="new-todo">
-            <input type="text" placeholder="Something To Do" name="text"> 
+            <input type="text" placeholder="Something to do" name="text">
             <button>Add Todo</button>
         </form>
-        <script src="todo-app.js" async defer></script>
+        <script src="uuidv4.js"></script>
+        <script src="todo-functions.js"></script>
+        <script src="todo-app.js"></script>
     </body>
 </html>
